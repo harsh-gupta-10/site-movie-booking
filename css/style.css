@@ -1,0 +1,103 @@
+   * {
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+   }
+   
+   body {
+    background-color: #181a1b;
+       margin: 0;
+   }
+   /* Style the header */
+   
+   .header {
+       background-color: #181a1b;
+       padding: 5px;
+       text-align: center;
+   }
+   /* Style the top navigation bar */
+   
+
+
+    .topnav {
+    
+       overflow: hidden;
+       background-color: #e03939;
+   }
+   
+   
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffff0c;
+       text-align: center;
+       padding: 20px 16px;
+       text-decoration: none;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   } 
+   
+   
+   .topnav a:hover {
+       background-color: #eaff00;
+       color: rgb(0, 0, 0);
+       font-size: larger;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      
+   } 
+   
+   main {
+       padding: 20px 20px;
+   }
+   
+   .banner1 {
+       border: solid orange 4px;
+       outline-style: solid;
+       outline-color: green;
+       height: 500px;
+       border-radius: 8px;
+       box-shadow: 10px 10px 5px #e03939;
+       display: flex;
+       margin-right: 20px;
+       margin-left: 20px;
+   }
+   
+ 
+   
+   .buttons {
+       text-align: center;
+       margin-top: 15px;
+   }
+   
+   .buttons button {
+       border: solid orange 4px;
+       font-size: 25px;
+       padding: 5px;
+       border-radius: 30%;
+   }
+   
+   .leftnav {
+       position: absolute;
+       margin-left: 90%;
+   }
+   
+   .head2 {
+       background-color: #fbff00;
+       text-align: center;
+       color: #181a1b;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       padding: 10px 15px;
+       font-family: 'Times New Roman', Times, serif
+   }
+   
+   .banners {
+       display: flex;
+   }
+   
+   footer{
+    height: 60px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #e03939;
+   }

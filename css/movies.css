@@ -1,0 +1,17 @@
+
+
+
+.banner2 {
+    border: solid orange 4px;
+    outline-style: solid;
+    outline-color: green;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px #e03939;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.banners2 {
+    display: flex;
+}
